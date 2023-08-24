@@ -139,4 +139,23 @@ button {
 /*quotes styling*/
 .quotes {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
+
+.quotes .quote .title{
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quotes .quote .kubrick {
+    font-size: 25px;
+    font-weight: bold;
+}   
