@@ -183,3 +183,26 @@ button {
     border: 2px solid white;
 }
 
+/*footer styling*/
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    color: #e1e9fa;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
